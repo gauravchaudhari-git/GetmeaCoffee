@@ -59,8 +59,8 @@
     <pre><code>git clone https://github.com/your-username/getmeacoffee.git
 cd getmeacoffee</code></pre>
 
-    <li><strong>Install dependencies:</strong> Run the following command to install all necessary packages for both the frontend and backend:</li>
-    <pre><code>npm install</code></pre>
+    Install dependencies: Run the following command to install all necessary packages for both the frontend and backend:
+    npm install
 
     <li><strong>Set up environment variables:</strong> Create a <code>.env.local</code> file in the root directory and add the following:</li>
     <pre><code>MONGODB_URI=your-mongodb-connection-string
