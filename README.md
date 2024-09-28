@@ -59,19 +59,20 @@
     <pre><code>git clone https://github.com/your-username/getmeacoffee.git
 cd getmeacoffee</code></pre>
 
-    Install dependencies: Run the following command to install all necessary packages for both the frontend and backend:
-    npm install
+    Install dependencies: Run the following command to install all necessary packages for both the front and backend:
+    $npm install
 
-    <li><strong>Set up environment variables:</strong> Create a <code>.env.local</code> file in the root directory and add the following:</li>
-    <pre><code>MONGODB_URI=your-mongodb-connection-string
+    Set up environment variables: Create a .env.local file in the root directory and add the following:
+    MONGODB_URI=your-mongodb-connection-string
 NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your-stripe-public-key
 STRIPE_SECRET_KEY=your-stripe-secret-key
 NEXTAUTH_URL=your-next-auth-url</code></pre>
 
-    <li><strong>Run MongoDB:</strong> Ensure MongoDB is running either locally or use a cloud service like MongoDB Atlas.</li>
+    Run MongoDB: Ensure MongoDB runs locally or uses a cloud service like MongoDB Atlas.
 
-    <li><strong>Run the development server:</strong> To start the Next.js development server, run:</li>
-    <pre><code>npm run dev</code></pre>
+    Run the development server: To start the Next.js development server,
+    run:
+    <code>npm run dev</code>
     <p>Your app should now be running at <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</p>
   </ol>
 
