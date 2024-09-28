@@ -7,7 +7,7 @@
 </head>
 <body>
   <h1>GetMeACoffee</h1>
-  <p><strong>GetMeACoffee</strong> is a crowdfunding platform designed to support creators, innovators, and individuals by allowing supporters to donate through a simple and intuitive interface. Built with modern web technologies, this platform provides a seamless user experience with a focus on performance and security.</p>
+  <p><strong>GetMeACoffee</strong> is a crowdfunding platform designed to support creators, developers, and individuals by allowing supporters to donate through a simple and intuitive interface. Built with modern web technologies, this platform provides a seamless user experience focusing on performance and security.</p>
 
   <h2>Tech Stack</h2>
   <h3>Languages</h3>
