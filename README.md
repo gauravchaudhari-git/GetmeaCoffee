@@ -11,15 +11,20 @@
   Transparency: Clear goals, donation amounts, and regular updates to ensure supporters know how their contributions are being used.
 
 ## TECHSTACK
-Languages- HTML, CSS, Javascript.
-<br>
-Frameworks- NEXT.js, Tailwind.css, REACT.js, AUTH.js, Stripe(for payment gateway), Node.js
-<br>
-Database- MONGODB
-<br>
-API intergration - Mongoose
-
+Languages
+<ul>HTML<ul/>
+CSS
+JavaScript
+Frameworks and Libraries
+Next.js - React-based framework for building server-rendered applications.
+React.js - JavaScript library for building user interfaces.
+Tailwind CSS - A utility-first CSS framework for rapidly building custom designs.
+Auth.js - Authentication library for handling user login securely.
+Stripe - Payment gateway integration for handling transactions.
+Node.js - JavaScript runtime used for backend development.
 ## How to Install and Run the Project
+
+
 
 
 
