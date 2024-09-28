@@ -97,8 +97,8 @@ NEXTAUTH_URL=your-next-auth-url</code></pre>
 
   <h2>Contributing</h2>
   <p>Feel free to fork this project and submit pull requests. Contributions are welcome!</p>
-
-  <h2>License</h2>
-  <p>This project is licensed under the <a href="LICENSE" target="_blank">MIT License</a>.</p>
 </body>
 </html>
+
+## Screenshots
+
