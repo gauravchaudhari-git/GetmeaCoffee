@@ -72,8 +72,8 @@ NEXTAUTH_URL=your-next-auth-url</code></pre>
 
     Run the development server: To start the Next.js development server,
     run:
-    <code>npm run dev</code>
-    <p>Your app should now be running at <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</p>
+    $npm run dev
+    Your app should now be running at http://localhost:3000.
   </ol>
 
   <h2>Running the Project in Production</h2>
@@ -81,8 +81,8 @@ NEXTAUTH_URL=your-next-auth-url</code></pre>
     <li><strong>Build the project:</strong></li>
     <pre><code>npm run build</code></pre>
 
-    <li><strong>Start the production server:</strong></li>
-    <pre><code>npm start</code></pre>
+    Start the production server:
+    $npm start
   </ol>
 
   <h2>Folder Structure</h2>
