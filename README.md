@@ -12,8 +12,11 @@
 
 ## TECHSTACK
 Languages- HTML, CSS, Javascript.
+<br>
 Frameworks- NEXT.js, Tailwind.css, REACT.js, AUTH.js, Stripe(for payment gateway), Node.js
+<br>
 Database- MONGODB
+<br>
 API intergration - Mongoose
 
 ## How to Install and Run the Project
