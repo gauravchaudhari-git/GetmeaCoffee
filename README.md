@@ -10,7 +10,13 @@
   <br><br>
   Transparency: Clear goals, donation amounts, and regular updates to ensure supporters know how their contributions are being used.
 
-## Screenshots
+## TECHSTACK
+Languages- HTML, CSS, Javascript.
+Frameworks- NEXT.js, Tailwind.css, REACT.js, AUTH.js, Stripe(for payment gateway), Node.js
+Database- MONGODB
+API intergration - Mongoose
+
+## How to Install and Run the Project
 
 
 
