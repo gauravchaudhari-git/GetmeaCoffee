@@ -3,7 +3,7 @@
 
 ## Key features:
   Simple donation process: Users can make quick, easy contributions without complicated registration.
-  <br>
+  <br><br>
   Creator Profiles: Creators can build customizable pages to promote their work and set funding goals.
   <br>
   Community Interaction: Supporters can leave messages and interact with creators, fostering a sense of community.
