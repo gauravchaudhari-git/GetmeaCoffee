@@ -5,9 +5,9 @@
   Simple donation process: Users can make quick, easy contributions without complicated registration.
   <br><br>
   Creator Profiles: Creators can build customizable pages to promote their work and set funding goals.
-  <br>
+  <br><br>
   Community Interaction: Supporters can leave messages and interact with creators, fostering a sense of community.
-  <br>
+  <br><br>
   Transparency: Clear goals, donation amounts, and regular updates to ensure supporters know how their contributions are being used.
 
 
