@@ -101,9 +101,5 @@ NEXTAUTH_URL=your-next-auth-url</code></pre>
 </body>
 </html>
 
-## Screenshots
-![Screenshot 2024-09-28 223512](https://github.com/user-attachments/assets/a4479523-e9bc-4ac5-b6a2-a3feda7b85b9)
-![Screenshot 2024-09-28 223501](https://github.com/user-attachments/assets/9cd79a53-0174-4f7a-a4cd-23ff37250bb0)
-![Screenshot 2024-09-28 223403](https://github.com/user-attachments/assets/2148fb0d-a930-46e0-bd5d-4dda638c8f0b)
-![Screenshot 2024-09-28 223339](https://github.com/user-attachments/assets/55bcfb4f-174c-4ba8-8286-f9076bac8d5d)
+
 
