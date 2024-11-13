@@ -1,105 +1,147 @@
+# Get Me A Chai
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-</head>
-<body>
-  <h1>GetMeACoffee</h1>
-  <p><strong>GetMeACoffee</strong> is a crowdfunding platform designed to support creators, developers, and individuals by allowing supporters to donate through a simple and intuitive interface. Built with modern web technologies, this platform provides a seamless user experience focusing on performance and security.</p>
+## Overview
 
-  <h2>Tech Stack</h2>
-  <h3>Languages</h3>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-  </ul>
+Get Me A Chai is a crowdfunding platform designed specifically for developers, creators, and influencers. Our platform allows users to support their favorite projects and creators financially, helping them bring their visions to life. With intuitive design tools and a focus on simplicity, 
 
-  <h3>Frameworks and Libraries</h3>
-  <ul>
-    <li><a href="https://nextjs.org/" target="_blank">Next.js</a> - React-based framework for building server-rendered applications.</li>
-    <li><a href="https://reactjs.org/" target="_blank">React.js</a> - JavaScript library for building user interfaces.</li>
-    <li><a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> - A utility-first CSS framework for rapidly building custom designs.</li>
-    <li><a href="https://authjs.dev/" target="_blank">Auth.js</a> - Authentication library for handling user login securely.</li>
-    <li><a href="https://stripe.com/" target="_blank">Stripe</a> - Payment gateway integration for handling transactions.</li>
-    <li><a href="https://nodejs.org/" target="_blank">Node.js</a> - JavaScript runtime used for backend development.</li>
-  </ul>
+<!-- ## Features
 
-  <h3>Database</h3>
-  <ul>
-    <li><a href="https://www.mongodb.com/" target="_blank">MongoDB</a> - NoSQL database for storing user and project data.</li>
-    <li><a href="https://mongoosejs.com/" target="_blank">Mongoose</a> - Object Data Modeling (ODM) library for MongoDB.</li>
-  </ul>
+- **Customizable Campaign Pages**: Tailor your campaign's look and feel to match your unique style, including color schemes, fonts, and page design.
+- **High Performance**: Our platform is optimized for speed, ensuring fast load times so your supporters can access your campaign quickly and easily.
+- **Comprehensive Tools**: Everything you need to run a successful campaign, from analytics to support tools, right out of the box.
+- **Secure Payments**: Integration with Razorpay for secure and smooth transactions. -->
 
-  <h3>API Integration</h3>
-  <p>API communication is handled using <strong>Mongoose</strong> for connecting the application to the MongoDB database.</p>
+## Technologies Used
 
-  <h2>Features</h2>
-  <ul>
-    <li>User authentication (via Auth.js).</li>
-    <li>Payment gateway integration (via Stripe).</li>
-    <li>Crowdfunding for creators.</li>
-    <li>Dynamic project creation and funding goals.</li>
-  </ul>
+- **Frontend & Backend**: Next.js (JavaScript) 
+- **Styling**: Tailwind CSS
+- **Database**: MongoDB
+- **Payments**: Razorpay integration
+- **Hosting**: Vercel
 
-  <h2>Prerequisites</h2>
-  <p>Before running the project, ensure you have the following installed:</p>
-  <ul>
-    <li><a href="https://nodejs.org/" target="_blank">Node.js</a> (version 14.x or higher)</li>
-    <li><a href="https://www.mongodb.com/try/download/community" target="_blank">MongoDB</a> (local or cloud instance)</li>
-  </ul>
+## Getting Started
 
-  <h2>Installation and Setup</h2>
-  <p>Follow these steps to install and set up the project locally:</p>
+### Prerequisites
 
-  <ol>
-    <li><strong>Clone the repository:</strong></li>
-    <pre><code>git clone https://github.com/your-username/getmeacoffee.git
-cd getmeacoffee</code></pre>
+- Node.js (v12.x or later)
+- npm (v6.x or later) or yarn (v1.22.x or later)
 
-    Install dependencies: Run the following command to install all necessary packages for both the front and backend:
-    $npm install
+### Installation
 
-    Set up environment variables: Create a .env.local file in the root directory and add the following:
-    MONGODB_URI=your-mongodb-connection-string
-NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your-stripe-public-key
-STRIPE_SECRET_KEY=your-stripe-secret-key
-NEXTAUTH_URL=your-next-auth-url</code></pre>
+1. **Clone the repository:**
 
-    Run MongoDB: Ensure MongoDB runs locally or uses a cloud service like MongoDB Atlas.
+   ```sh
+   git clone https://github.com/namankoolwal/Get-Me-A-Chai.git
+   cd get-me-a-chai
+    ```
 
-    Run the development server: To start the Next.js development server,
-    run:
-    $npm run dev
-    Your app should now be running at http://localhost:3000.
-  </ol>
+1. **Install dependencies:**
 
-  <h2>Running the Project in Production</h2>
-  <ol>
-    <li><strong>Build the project:</strong></li>
-    <pre><code>npm run build</code></pre>
+   ```sh
+   npm install
+   #or
+   yarn install
+   ```
+3. **Set up environment variables:**
 
-    Start the production server:
-    $npm start
-  </ol>
+    Create a .env.local file in the root directory and add the necessary environment variables (example below):
 
-  <h2>Folder Structure</h2>
-  <pre><code>.
-├── components     # React components
-├── pages          # Next.js pages
-├── public         # Static assets
-├── styles         # Tailwind CSS configuration
-├── lib            # Mongoose and other API integrations
-└── .env.local     # Environment variables
-</code></pre>
+    ```sh
+    MONGODB_URI=your_mongodb_connection_string
+   
+    GITHUB_ID=<Github_ID>
+    GITHUB_SECRET=<Github_Secret>
 
-  <h2>Contributing</h2>
-  <p>Feel free to fork this project and submit pull requests. Contributions are welcome!</p>
-</body>
-</html>
+    GOOGLE_CLIENT_ID=<YOUR_GOOGLE_CLIENT_ID>
+    GOOGLE_CLIENT_SECRET=<YOUR_GOOGLE_CLIENT_SECRET>
+
+    MONGODB_URI=<YOUR_MONGODB_URI>
+
+    NEXT_PUBLIC_URL=<YOUR_NEXT_PUBLIC_URL>
+    NEXTAUTH_URL=<YOUR_NEXTAUTH_URL>
+    NEXTAUTH_SECRET=<YOUR_SECRET>
+    ```
+ 4. **Getting Started**
+
+    First, run the development server:
+
+    ```sh
+        npm run dev
+        # or
+        yarn dev
+        # or
+        pnpm dev
+        # or
+        bun dev
+     ```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Feedback and Contributions
+
+We invite you to experience our site by using it to support or create campaigns. Your feedback is invaluable to us and helps us improve our platform. If you have any suggestions or encounter any issues, please let us know.
+
+We welcome contributions to enhance the platform. You can add new features, fix bugs, or improve documentation. Pull requests are welcome!
+
+### How to Contribute
+1. **Fork the repository:**
+
+    Click on the "Fork" button at the top right of this page to create a copy of this repository under your GitHub account.
+
+2. **Clone the forked repository:**
+    ```sh
+    git clone https://github.com/namankoolwal/Get-Me-A-Chai.git
+    cd get-me-a-chai
+    ```
+3. **Create a new branch:**
+    ```sh
+    git checkout -b feature-branch
+    ```    
+4. **Make your changes and commit them:**
+    ```sh
+    git add .
+    git commit -m 'Add new feature'
+    ```
+
+5. **Push to the branch:**
+    ```sh
+    git push origin feature-branch
+    ```
+
+6. **Open a Pull Request:**
+
+    Go to the repository on GitHub and click on the "Compare & pull request" button. Provide a clear description of your changes and submit the pull request.
 
 
+## Contribution Guidelines
 
+- Ensure your code follows the project's coding standards.
+- Include relevant documentation and update existing    documentation if needed.
+- Write clear and descriptive commit messages.
+- Test your changes thoroughly before submitting a pull request.
+
+## License
+This project is licensed under the MIT [License](https://github.com/namankoolwal/Get-Me-A-Chai/blob/main/LICENSE). See the LICENSE file for details.
+
+## Contact
+For any questions or feedback, please reach out to us at namankoolwal1411@gmail.com
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+##
+### 😀If you are reading this then [Buy Me A Chai](https://get-me-chai.vercel.app/naman-khandelwal) 🍵
+##
+
+## Credit
+<a href="https://www.flaticon.com/free-stickers/student" title="student stickers">Student stickers created by Stickers - Flaticon</a>
+
+<a href="https://lordicon.com/">Icons by Lordicon.com</a>
