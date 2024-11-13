@@ -94,8 +94,8 @@ We welcome contributions to enhance the platform. You can add new features, fix 
 
 2. **Clone the forked repository:**
     ```sh
-    git clone https://github.com/namankoolwal/Get-Me-A-Chai.git
-    cd get-me-a-chai
+    git clone (https://github.com/gauravchaudhari-git/GetmeaCoffee/tree/main)
+    cd get-me-a-coffee
     ```
 3. **Create a new branch:**
     ```sh
