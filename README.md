@@ -119,6 +119,6 @@ We welcome contributions to enhance the platform. You can add new features, fix 
 
 ## Deploy on Vercel
 
-### [Buy Me A Chai](https://get-me-chai.vercel.app/naman-khandelwal) 🍵
+### https://getmea-coffee-ssdm.vercel.app/ 🍵
 
 
