@@ -1,8 +1,8 @@
-# Get Me A Chai
+# Get Me A Coffee
 
 ## Overview
 
-Get Me A Chai is a crowdfunding platform designed specifically for developers, creators, and influencers. Our platform allows users to support their favorite projects and creators financially, helping them bring their visions to life. With intuitive design tools and a focus on simplicity, 
+Get Me A Coffee is a crowdfunding platform designed specifically for developers, creators, and influencers. Our platform allows users to support their favorite projects and creators financially, helping them bring their visions to life. With intuitive design tools and a focus on simplicity, 
 
 <!-- ## Features
 
