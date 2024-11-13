@@ -117,31 +117,8 @@ We welcome contributions to enhance the platform. You can add new features, fix 
     Go to the repository on GitHub and click on the "Compare & pull request" button. Provide a clear description of your changes and submit the pull request.
 
 
-## Contribution Guidelines
-
-- Ensure your code follows the project's coding standards.
-- Include relevant documentation and update existing    documentation if needed.
-- Write clear and descriptive commit messages.
-- Test your changes thoroughly before submitting a pull request.
-
-## License
-This project is licensed under the MIT [License](https://github.com/namankoolwal/Get-Me-A-Chai/blob/main/LICENSE). See the LICENSE file for details.
-
-## Contact
-For any questions or feedback, please reach out to us at namankoolwal1411@gmail.com
-
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### [Buy Me A Chai](https://get-me-chai.vercel.app/naman-khandelwal) 🍵
 
 
-##
-### 😀If you are reading this then [Buy Me A Chai](https://get-me-chai.vercel.app/naman-khandelwal) 🍵
-##
-
-## Credit
-<a href="https://www.flaticon.com/free-stickers/student" title="student stickers">Student stickers created by Stickers - Flaticon</a>
-
-<a href="https://lordicon.com/">Icons by Lordicon.com</a>
